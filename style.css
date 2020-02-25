@@ -17,8 +17,35 @@
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 9px,25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 25px ;
+    padding-right: 25px ;
     cursor: pointer;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;}
+.cat1, .cat2, .cat3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
     
-
+.cat1{
+    background-color: orange;
+    
+    
+}
+.cat2{
+    background-color: #FF136F;
+   
+}
+.cat3{
+    background-color: blue;
+   
 }
