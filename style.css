@@ -17,10 +17,7 @@
     color: white;
     border: none;
     border-radius: 8px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 25px ;
-    padding-right: 25px ;
+    padding: 9px 25px;
     cursor: pointer;
 }
 .categories h1{
@@ -29,11 +26,10 @@
 .categories img{
     width: 100px;}
 .cat1, .cat2, .cat3{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+
 }
     
 .cat1{
@@ -48,4 +44,23 @@
 .cat3{
     background-color: blue;
    
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+    padding-bottom: 10px;
+}
+#contact-us{
+    height: 300px;
+}
+#contact-us h6{
+    color: grey;
+}
+footer{
+    text-align: center;
 }
